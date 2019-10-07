@@ -4,69 +4,162 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="imagem/png" href="img/logo.png" />
     <title>Home | Affitto</title>
+    <style media="screen">
+    html,
+    body {
+      height: 100%;
+      font-family: FontPicaViado;
+    }
+    </style>
   </head>
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 mx-auto flex-column background_home">
-  <header class="masthead mb-auto opacity" id="topo">
-    <div class="inner">
-      <h3 class="masthead-brand">A</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="index.html">home</a>
-        <a class="nav-link" href="about.html">about</a>
-        <a class="nav-link" href="login.html">login</a>
+  <body class="text-center" style="height: 100%;">
+    <header class="masthead mb-auto opacity" id="topo">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand " href="index.html" style="font-size: 30px">A</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link texto" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link texto" href="about.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link texto" href="login.html">Login<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link texto" href="login.html" > | <span class="espacod"><img src="img/foto_perfil.jpg" class="foto_perfil2" alt="" height="30px" width="30px"></span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle texto" href="#" id="navbarDropdown" style="color: #fff" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Perfil
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item texto" href="perfil.html">Conta</a>
+                <a class="dropdown-item texto" href="#">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </nav>
+    </header>
+    <div class="cover-container d-flex w-100 h-100 mx-auto  background_home">
+      <div class="disposição">
+        <h1 style="font-weight: bold">Cadastre-se na Affitto</h1>
+        <p class="texto">tenha acesso a produtos baratos para aluguel</p>
+        <a href="cadastro.html"><button class="btn btn-light btn-lg inputo" type="submit">Cadastrar</button></a>
+      </div>
+      <div class="img_custo2">
+        <img src="img/imagem.png" alt="" height="700px" width="700px">
+      </div>
     </div>
-  </header>
-</div>
-<div class="pagina_principal">
-  <div class="primeiraparte">
-    <img src="img/moedinha5.png" alt="" width="230px" height="230px">
-  </div>
-  <div class="segundaparte">
-    <h2>Custo benefício</h2>
-    <p>
-      Com o Affittto você economiza em até 70% com gastos momentâneos
-      e que não trarão benefícios a longo prazo. Nosso cliente tem a disposição
-      as melhoores ofertas oferecidas no mercado de alguel.
-    </p>
-  </div>
-  <div class="primeiraparte">
-    <img src="img/praticidade2.png" alt="" width="230px" height="230px">
-  </div>
-  <div class="segundaparte">
-    <h2>Usabilidade</h2>
-    <p>
-      O aplicativo desenvolvido é simples e de fácil manuseio, facilitando
-      diversos momentos em sua vida. O usuário posta o obejto que está sendo
-      exposto para alugar, facilita a vida do cliente e recebe por isso.
-    </p>
-  </div>
-  <div class="primeiraparte">
-    <img src="img/variedade2.png" alt="" width="230px" height="230px">
-  </div>
-  <div class="segundaparte">
-    <h2>Variedade</h2>
-    <p>
-      No Affitto você tem a disposição os mais variados produtos disponíveis
-      para alugar, com praticidade, preço acessível e na sua cidade. Baixe
-      agora o app e descubra nossos múltiplos itens.
-    </p>
-  </div>
-</div>
-<div class="faca_login">
-  <div class="cadastro">
-    <h2>Cadastre-se no app</h2>
-  </div>
-  <div class="registro">
-    <h2>Cadastre um produto</h2>
-  </div>
-</div>
-<footer class="footer">
-  <h2>Aqui é o footer</h2>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <div class="pagina_principal">
+      <!-- <div class="custoben2">
+        <h2>Custo benefício</h2>
+        <p class="texto">
+          Com o Affitto você economiza em até 70% com gastos momentâneos
+          e que não trarão benefícios a longo prazo. Nosso cliente tem a disposição
+          as melhoores ofertas oferecidas no mercado de aluguel.
+        </p>
+      </div>
+      <div class="img_custo">
+        <img src="img/custo.png" alt="" height="430px" width="430px">
+      </div> -->
+      <div class="custoben2">
+          <h2>Usabilidade</h2>
+          <p class="texto">
+            O aplicativo desenvolvido é simples e de fácil manuseio, facilitando
+            diversos momentos em sua vida. O usuário posta o obejto que está sendo
+            exposto para alugar, facilita a vida do cliente e recebe por isso.
+          </p>
+      </div>
+      <div class="img_custo">
+        <img src="img/celulares.png" alt="" height="500px" width="500px">
+      </div>
+      <div class="custoben2">
+          <h2>Variedade</h2>
+          <p class="texto">
+            No Affitto você tem a disposição os mais variados produtos disponíveis
+            para alugar, com praticidade, preço acessível e na sua cidade. Baixe
+            agora o app e descubra nossos múltiplos itens.
+          </p>
+      </div>
+      <div class="img_custo3">
+        <img src="img/produtos.png" alt="" height="400px" width="400px">
+      </div>
+    </div>
+    <div class="faca_login">
+      <a href="cadastro.html">
+        <div class="cadastro">
+          <h2>Cadastre-se no app -></h2>
+        </div>
+      </a>
+      <a href="login.html">
+        <div class="registro">
+          <h2>Cadastre um produto -></h2>
+        </div>
+      </a>
+    </div>
+    <div class="ultimaparte">
+      <div class="parteum_last">
+        <p style="font-size: 50px;">Aproveite ao máximo a Affitto</p>
+      </div>
+      <div class="partedois_last">
+        <p style="font-size: 25px;">Gerencie sua conta</p>
+        <div class="texto_last">
+          <p>Edite seu perfil, altere sua senha e atualize suas informações de pagamento.</p>
+        </div>
+        <div class="botoes_last">
+          <a href="perfil.html">GERENCIAR CONTA</a>
+        </div>
+      </div>
+      <div class="partetres_last">
+        <p style="font-size: 25px;">Baixe o nosso aplicativo</p>
+        <div class="texto_last">
+          <p>Alugue facilmente as os produtos por um bom preço. Baixe o aplicativo da Affitto no seu celular.</p>
+        </div>
+        <div class="botoes_last">
+          <a href="#">BAIXE O APLICATIVO</a>
+        </div>
+      </div>
+      <div class="partequatro_last">
+        <p style="font-size: 25px;">Tire suas dúvidas</p>
+        <div class="texto_last">
+          <p>Edite seu perfil, altere sua senha e atualize suas informações de pagamento.</p>
+        </div>
+        <div class="botoes_last">
+          <a href="faq.html">TIRE DÚVIDAS</a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="parte_um">
+        <a href="index.html"><p style="font-size: 80px;">A</p></a>
+        <a href="faq.html"><p>perguntas frequentes</p></a>
+        <a href="login.html"><p>cadastrar produto</p></a>
+        <a href="#"><img src="img/appstore.svg" alt="" /></a><br><br>
+        <a href="#"><img src="img/applestore.svg" alt="" /></a>
+      </div>
+      <div class="parte_dois">
+        <p style="font-size: 30px; font-weight: bold">Quem somos</p>
+        <a href="about.html"><p>about</p></a>
+        <a href="#"><p>email</p></a>
+        <a href="#"><p>seguranca</p></a>
+      </div>
+      <div class="parte_tres">
+        <p style="font-size: 30px; font-weight: bold">Produto</p>
+        <a href="login.html"><p>cadastre um produto</p></a>
+        <a href="cadastro.html"><p>crie sua conta</p></a>
+        <a href="#"><p>requisitos</p></a>
+      </div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
